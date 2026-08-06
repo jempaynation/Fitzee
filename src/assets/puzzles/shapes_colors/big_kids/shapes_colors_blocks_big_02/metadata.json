@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "shapes_colors_blocks_big_02",
+  "category_id": "shapes_colors",
+  "tier_id": "big_kids",
+  "display_name": "Block Town",
+  "source_image": "source.webp",
+  "piece_count": 30,
+  "narration_key": "shapes_colors.blocks.big_02",
+  "alt_text": "A playful town built from large colorful geometric blocks",
+  "tags": [
+    "shapes",
+    "colors",
+    "blocks"
+  ]
+}

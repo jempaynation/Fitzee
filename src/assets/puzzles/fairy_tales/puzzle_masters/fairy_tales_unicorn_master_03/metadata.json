@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "fairy_tales_unicorn_master_03",
+  "category_id": "fairy_tales",
+  "tier_id": "puzzle_masters",
+  "display_name": "Rainbow Unicorn",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "fairy_tales.unicorn.master_03",
+  "alt_text": "A gentle white unicorn with a rainbow mane in a flower meadow",
+  "tags": [
+    "unicorn",
+    "rainbow",
+    "fantasy"
+  ]
+}

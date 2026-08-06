@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "numbers_letters_ducks_little_01",
+  "category_id": "numbers_letters",
+  "tier_id": "little_explorers",
+  "display_name": "Counting Ducks",
+  "source_image": "source.webp",
+  "piece_count": 8,
+  "narration_key": "numbers_letters.ducks.little_01",
+  "alt_text": "Five yellow ducklings swimming separately in a sunny pond",
+  "tags": [
+    "counting",
+    "ducks",
+    "five"
+  ]
+}

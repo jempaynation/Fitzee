@@ -1,0 +1,20 @@
+{
+  "puzzle_id": "holidays_autumn_harvest_master_03",
+  "category_id": "holidays",
+  "tier_id": "puzzle_masters",
+  "display_name": "Autumn Harvest",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "holidays.autumn_harvest.master_03",
+  "alt_text": "A friendly autumn farm harvest with pumpkins, apples, leaves, and sunflowers",
+  "tags": [
+    "autumn",
+    "harvest",
+    "seasonal"
+  ],
+  "active_months": [
+    9,
+    10,
+    11
+  ]
+}

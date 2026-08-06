@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "nature_seasons_sun_moon_master_03",
+  "category_id": "nature_seasons",
+  "tier_id": "puzzle_masters",
+  "display_name": "Sun and Moon",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "nature_seasons.sun_moon.master_03",
+  "alt_text": "A landscape changing from sunny daytime to a moonlit starry night",
+  "tags": [
+    "day",
+    "night",
+    "nature"
+  ]
+}

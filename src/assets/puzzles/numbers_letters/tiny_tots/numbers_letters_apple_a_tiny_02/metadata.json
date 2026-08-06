@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "numbers_letters_apple_a_tiny_02",
+  "category_id": "numbers_letters",
+  "tier_id": "tiny_tots",
+  "display_name": "Apple Letter A",
+  "source_image": "source.webp",
+  "piece_count": 6,
+  "narration_key": "numbers_letters.apple_a.tiny_02",
+  "alt_text": "A large uppercase letter A built from red apples and green leaves",
+  "tags": [
+    "letter",
+    "a",
+    "apple"
+  ]
+}

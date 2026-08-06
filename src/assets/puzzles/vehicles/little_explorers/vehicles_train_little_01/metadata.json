@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "vehicles_train_little_01",
+  "category_id": "vehicles",
+  "tier_id": "little_explorers",
+  "display_name": "Countryside Train",
+  "source_image": "source.webp",
+  "piece_count": 8,
+  "narration_key": "vehicles.train.little_01",
+  "alt_text": "A bright red passenger train crossing a bridge in the sunny countryside",
+  "tags": [
+    "train",
+    "countryside",
+    "vehicle"
+  ]
+}

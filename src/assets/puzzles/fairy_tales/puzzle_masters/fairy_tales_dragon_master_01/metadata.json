@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "fairy_tales_dragon_master_01",
+  "category_id": "fairy_tales",
+  "tier_id": "puzzle_masters",
+  "display_name": "Friendly Dragon",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "fairy_tales.dragon.master_01",
+  "alt_text": "A gentle teal dragon sitting in a flower meadow near a storybook castle",
+  "tags": [
+    "dragon",
+    "castle",
+    "fantasy"
+  ]
+}

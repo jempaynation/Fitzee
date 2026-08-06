@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "numbers_letters_fish_three_big_03",
+  "category_id": "numbers_letters",
+  "tier_id": "big_kids",
+  "display_name": "Number Three Fish",
+  "source_image": "source.webp",
+  "piece_count": 20,
+  "narration_key": "numbers_letters.fish_three.big_03",
+  "alt_text": "Three colorful fish curving together to form a large number three",
+  "tags": [
+    "number",
+    "three",
+    "fish"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "vehicles_sailboat_little_03",
+  "category_id": "vehicles",
+  "tier_id": "little_explorers",
+  "display_name": "Sailboat Harbor",
+  "source_image": "source.webp",
+  "piece_count": 8,
+  "narration_key": "vehicles.sailboat.little_03",
+  "alt_text": "A red and yellow sailboat gliding past a lighthouse in a calm harbor",
+  "tags": [
+    "sailboat",
+    "harbor",
+    "vehicle"
+  ]
+}

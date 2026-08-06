@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "animals_butterflies_little_04",
+  "category_id": "animals",
+  "tier_id": "little_explorers",
+  "display_name": "Butterfly Garden",
+  "source_image": "source.webp",
+  "piece_count": 12,
+  "narration_key": "animals.butterflies.little_04",
+  "alt_text": "Colorful butterflies flying above a sunny flower garden",
+  "tags": [
+    "butterfly",
+    "garden",
+    "animal"
+  ]
+}

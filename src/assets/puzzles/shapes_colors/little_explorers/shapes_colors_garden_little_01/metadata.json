@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "shapes_colors_garden_little_01",
+  "category_id": "shapes_colors",
+  "tier_id": "little_explorers",
+  "display_name": "Shape Garden",
+  "source_image": "source.webp",
+  "piece_count": 8,
+  "narration_key": "shapes_colors.garden.little_01",
+  "alt_text": "A colorful garden made from circles, triangles, squares, rectangles, and diamonds",
+  "tags": [
+    "shapes",
+    "colors",
+    "garden"
+  ]
+}

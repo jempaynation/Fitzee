@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Fitzee</title>
+  <desc id="description">A white letter F with four puzzle dots on a berry background.</desc>
+  <rect width="512" height="512" rx="112" fill="#9c2f5f"/>
+  <circle cx="130" cy="134" r="42" fill="#f8d4e2"/>
+  <circle cx="382" cy="134" r="42" fill="#8cd2d6"/>
+  <circle cx="130" cy="378" r="42" fill="#ffd97a"/>
+  <circle cx="382" cy="378" r="42" fill="#ffffff" opacity=".84"/>
+  <path d="M195 116h166v66H271v69h80v64h-80v101h-76V116z" fill="#ffffff"/>
+</svg>

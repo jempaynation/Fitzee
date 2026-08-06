@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "everyday_life_firefighter_tiny_03",
+  "category_id": "everyday_life",
+  "tier_id": "tiny_tots",
+  "display_name": "Friendly Firefighter",
+  "source_image": "source.webp",
+  "piece_count": 4,
+  "narration_key": "everyday_life.firefighter.tiny_03",
+  "alt_text": "A kind firefighter waving beside a red fire engine at the station",
+  "tags": [
+    "firefighter",
+    "helper",
+    "everyday"
+  ]
+}

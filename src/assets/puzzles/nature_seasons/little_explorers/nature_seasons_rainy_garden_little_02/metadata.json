@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "nature_seasons_rainy_garden_little_02",
+  "category_id": "nature_seasons",
+  "tier_id": "little_explorers",
+  "display_name": "Rainy Garden",
+  "source_image": "source.webp",
+  "piece_count": 12,
+  "narration_key": "nature_seasons.rainy_garden.little_02",
+  "alt_text": "Colorful umbrellas and a friendly frog in a flower garden during gentle rain",
+  "tags": [
+    "rain",
+    "garden",
+    "nature"
+  ]
+}

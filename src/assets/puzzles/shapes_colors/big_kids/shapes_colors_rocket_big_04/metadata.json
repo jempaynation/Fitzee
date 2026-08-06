@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "shapes_colors_rocket_big_04",
+  "category_id": "shapes_colors",
+  "tier_id": "big_kids",
+  "display_name": "Shape Rocket",
+  "source_image": "source.webp",
+  "piece_count": 30,
+  "narration_key": "shapes_colors.rocket.big_04",
+  "alt_text": "A friendly rocket built from colorful geometric shapes flying through space",
+  "tags": [
+    "shapes",
+    "colors",
+    "rocket"
+  ]
+}

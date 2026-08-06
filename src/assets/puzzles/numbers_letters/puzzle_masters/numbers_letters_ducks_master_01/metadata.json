@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "numbers_letters_ducks_master_01",
+  "category_id": "numbers_letters",
+  "tier_id": "puzzle_masters",
+  "display_name": "Counting Ducks",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "numbers_letters.ducks.master_01",
+  "alt_text": "Five yellow ducklings swimming separately in a sunny pond",
+  "tags": [
+    "counting",
+    "ducks",
+    "five"
+  ]
+}

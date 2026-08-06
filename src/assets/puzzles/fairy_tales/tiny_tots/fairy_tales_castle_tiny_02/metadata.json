@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "fairy_tales_castle_tiny_02",
+  "category_id": "fairy_tales",
+  "tier_id": "tiny_tots",
+  "display_name": "Hilltop Castle",
+  "source_image": "source.webp",
+  "piece_count": 6,
+  "narration_key": "fairy_tales.castle.tiny_02",
+  "alt_text": "A colorful welcoming fairy-tale castle on a green flowered hill",
+  "tags": [
+    "castle",
+    "rainbow",
+    "fantasy"
+  ]
+}

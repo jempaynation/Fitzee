@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "fairy_tales_unicorn_tiny_03",
+  "category_id": "fairy_tales",
+  "tier_id": "tiny_tots",
+  "display_name": "Rainbow Unicorn",
+  "source_image": "source.webp",
+  "piece_count": 4,
+  "narration_key": "fairy_tales.unicorn.tiny_03",
+  "alt_text": "A gentle white unicorn with a rainbow mane in a flower meadow",
+  "tags": [
+    "unicorn",
+    "rainbow",
+    "fantasy"
+  ]
+}

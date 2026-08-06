@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "everyday_life_bedtime_tiny_04",
+  "category_id": "everyday_life",
+  "tier_id": "tiny_tots",
+  "display_name": "Cozy Bedtime Room",
+  "source_image": "source.webp",
+  "piece_count": 6,
+  "narration_key": "everyday_life.bedtime.tiny_04",
+  "alt_text": "A tidy moonlit bedroom with a made bed, teddy bear, lamp, and slippers",
+  "tags": [
+    "bedtime",
+    "bedroom",
+    "everyday"
+  ]
+}

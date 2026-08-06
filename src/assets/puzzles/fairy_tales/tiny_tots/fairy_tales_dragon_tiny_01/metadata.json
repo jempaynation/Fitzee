@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "fairy_tales_dragon_tiny_01",
+  "category_id": "fairy_tales",
+  "tier_id": "tiny_tots",
+  "display_name": "Friendly Dragon",
+  "source_image": "source.webp",
+  "piece_count": 4,
+  "narration_key": "fairy_tales.dragon.tiny_01",
+  "alt_text": "A gentle teal dragon sitting in a flower meadow near a storybook castle",
+  "tags": [
+    "dragon",
+    "castle",
+    "fantasy"
+  ]
+}

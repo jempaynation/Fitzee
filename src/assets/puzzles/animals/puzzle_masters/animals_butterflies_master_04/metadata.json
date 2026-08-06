@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "animals_butterflies_master_04",
+  "category_id": "animals",
+  "tier_id": "puzzle_masters",
+  "display_name": "Butterfly Garden",
+  "source_image": "source.webp",
+  "piece_count": 60,
+  "narration_key": "animals.butterflies.master_04",
+  "alt_text": "Colorful butterflies flying above a sunny flower garden",
+  "tags": [
+    "butterfly",
+    "garden",
+    "animal"
+  ]
+}

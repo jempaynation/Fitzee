@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "everyday_life_picnic_master_01",
+  "category_id": "everyday_life",
+  "tier_id": "puzzle_masters",
+  "display_name": "Family Picnic",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "everyday_life.picnic.master_01",
+  "alt_text": "A fictional family enjoying fruit and a kite at a sunny park picnic",
+  "tags": [
+    "family",
+    "picnic",
+    "park"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "animals_dinosaur_little_03",
+  "category_id": "animals",
+  "tier_id": "little_explorers",
+  "display_name": "Friendly Dinosaur",
+  "source_image": "source.webp",
+  "piece_count": 8,
+  "narration_key": "animals.dinosaur.little_03",
+  "alt_text": "A gentle green dinosaur standing among bright prehistoric plants",
+  "tags": [
+    "dinosaur",
+    "meadow",
+    "animal"
+  ]
+}

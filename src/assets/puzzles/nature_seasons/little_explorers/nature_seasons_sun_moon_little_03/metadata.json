@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "nature_seasons_sun_moon_little_03",
+  "category_id": "nature_seasons",
+  "tier_id": "little_explorers",
+  "display_name": "Sun and Moon",
+  "source_image": "source.webp",
+  "piece_count": 8,
+  "narration_key": "nature_seasons.sun_moon.little_03",
+  "alt_text": "A landscape changing from sunny daytime to a moonlit starry night",
+  "tags": [
+    "day",
+    "night",
+    "nature"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "puzzle_id": "holidays_autumn_harvest_little_03",
+  "category_id": "holidays",
+  "tier_id": "little_explorers",
+  "display_name": "Autumn Harvest",
+  "source_image": "source.webp",
+  "piece_count": 8,
+  "narration_key": "holidays.autumn_harvest.little_03",
+  "alt_text": "A friendly autumn farm harvest with pumpkins, apples, leaves, and sunflowers",
+  "tags": [
+    "autumn",
+    "harvest",
+    "seasonal"
+  ],
+  "active_months": [
+    9,
+    10,
+    11
+  ]
+}

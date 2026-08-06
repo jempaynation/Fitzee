@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "numbers_letters_alphabet_blocks_tiny_04",
+  "category_id": "numbers_letters",
+  "tier_id": "tiny_tots",
+  "display_name": "Alphabet Blocks",
+  "source_image": "source.webp",
+  "piece_count": 6,
+  "narration_key": "numbers_letters.alphabet_blocks.tiny_04",
+  "alt_text": "Three colorful toy blocks showing the uppercase letters A, B, and C",
+  "tags": [
+    "letters",
+    "alphabet",
+    "blocks"
+  ]
+}

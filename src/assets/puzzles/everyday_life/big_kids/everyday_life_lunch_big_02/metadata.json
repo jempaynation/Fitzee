@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "everyday_life_lunch_big_02",
+  "category_id": "everyday_life",
+  "tier_id": "big_kids",
+  "display_name": "Colorful Healthy Lunch",
+  "source_image": "source.webp",
+  "piece_count": 30,
+  "narration_key": "everyday_life.lunch.big_02",
+  "alt_text": "A bright lunch box filled with fruit, vegetables, a sandwich, and water",
+  "tags": [
+    "food",
+    "lunch",
+    "everyday"
+  ]
+}

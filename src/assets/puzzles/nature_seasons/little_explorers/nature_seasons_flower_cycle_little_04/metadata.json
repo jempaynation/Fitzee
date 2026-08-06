@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "nature_seasons_flower_cycle_little_04",
+  "category_id": "nature_seasons",
+  "tier_id": "little_explorers",
+  "display_name": "Flower Life Cycle",
+  "source_image": "source.webp",
+  "piece_count": 12,
+  "narration_key": "nature_seasons.flower_cycle.little_04",
+  "alt_text": "A seed, sprout, bud, and blooming flower growing across a garden",
+  "tags": [
+    "flower",
+    "growth",
+    "nature"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "shapes_colors_rainbow_master_03",
+  "category_id": "shapes_colors",
+  "tier_id": "puzzle_masters",
+  "display_name": "Rainbow Pattern",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "shapes_colors.rainbow.master_03",
+  "alt_text": "A bright rainbow landscape filled with repeating geometric patterns",
+  "tags": [
+    "shapes",
+    "colors",
+    "pattern"
+  ]
+}

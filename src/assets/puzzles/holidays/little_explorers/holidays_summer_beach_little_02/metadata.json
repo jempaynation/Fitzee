@@ -1,0 +1,20 @@
+{
+  "puzzle_id": "holidays_summer_beach_little_02",
+  "category_id": "holidays",
+  "tier_id": "little_explorers",
+  "display_name": "Sunny Beach Day",
+  "source_image": "source.webp",
+  "piece_count": 12,
+  "narration_key": "holidays.summer_beach.little_02",
+  "alt_text": "A sunny beach with a sandcastle, umbrella, ball, shells, and gentle waves",
+  "tags": [
+    "summer",
+    "beach",
+    "seasonal"
+  ],
+  "active_months": [
+    6,
+    7,
+    8
+  ]
+}

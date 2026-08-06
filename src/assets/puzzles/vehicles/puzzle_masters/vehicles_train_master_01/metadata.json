@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "vehicles_train_master_01",
+  "category_id": "vehicles",
+  "tier_id": "puzzle_masters",
+  "display_name": "Countryside Train",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "vehicles.train.master_01",
+  "alt_text": "A bright red passenger train crossing a bridge in the sunny countryside",
+  "tags": [
+    "train",
+    "countryside",
+    "vehicle"
+  ]
+}

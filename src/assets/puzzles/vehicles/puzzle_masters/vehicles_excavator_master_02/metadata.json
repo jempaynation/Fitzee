@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "vehicles_excavator_master_02",
+  "category_id": "vehicles",
+  "tier_id": "puzzle_masters",
+  "display_name": "Busy Excavator",
+  "source_image": "source.webp",
+  "piece_count": 60,
+  "narration_key": "vehicles.excavator.master_02",
+  "alt_text": "A friendly yellow excavator lifting earth at a tidy construction site",
+  "tags": [
+    "excavator",
+    "construction",
+    "vehicle"
+  ]
+}

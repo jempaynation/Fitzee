@@ -1,0 +1,20 @@
+{
+  "puzzle_id": "holidays_spring_kites_tiny_01",
+  "category_id": "holidays",
+  "tier_id": "tiny_tots",
+  "display_name": "Spring Kite Festival",
+  "source_image": "source.webp",
+  "piece_count": 4,
+  "narration_key": "holidays.spring_kites.tiny_01",
+  "alt_text": "Colorful kites flying above a bright spring flower meadow",
+  "tags": [
+    "spring",
+    "kites",
+    "seasonal"
+  ],
+  "active_months": [
+    3,
+    4,
+    5
+  ]
+}

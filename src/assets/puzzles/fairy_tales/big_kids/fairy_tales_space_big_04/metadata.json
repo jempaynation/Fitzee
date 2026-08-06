@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "fairy_tales_space_big_04",
+  "category_id": "fairy_tales",
+  "tier_id": "big_kids",
+  "display_name": "Friendly Space Adventure",
+  "source_image": "source.webp",
+  "piece_count": 30,
+  "narration_key": "fairy_tales.space.big_04",
+  "alt_text": "A friendly robot and colorful alien exploring a purple moon beside a rocket",
+  "tags": [
+    "space",
+    "robot",
+    "fantasy"
+  ]
+}

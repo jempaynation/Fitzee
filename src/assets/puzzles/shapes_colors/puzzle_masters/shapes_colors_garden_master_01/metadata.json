@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "shapes_colors_garden_master_01",
+  "category_id": "shapes_colors",
+  "tier_id": "puzzle_masters",
+  "display_name": "Shape Garden",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "shapes_colors.garden.master_01",
+  "alt_text": "A colorful garden made from circles, triangles, squares, rectangles, and diamonds",
+  "tags": [
+    "shapes",
+    "colors",
+    "garden"
+  ]
+}

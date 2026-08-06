@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "vehicles_airplane_tiny_04",
+  "category_id": "vehicles",
+  "tier_id": "tiny_tots",
+  "display_name": "Friendly Airplane",
+  "source_image": "source.webp",
+  "piece_count": 6,
+  "narration_key": "vehicles.airplane.tiny_04",
+  "alt_text": "A cheerful blue and red airplane flying above patchwork countryside",
+  "tags": [
+    "airplane",
+    "sky",
+    "vehicle"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "animals_farm_cow_master_01",
+  "category_id": "animals",
+  "tier_id": "puzzle_masters",
+  "display_name": "Cow on the Farm",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "animals.farm_cow.master_01",
+  "alt_text": "A cheerful brown and white cow standing in a sunny green farm meadow",
+  "tags": [
+    "farm",
+    "cow",
+    "animal"
+  ]
+}

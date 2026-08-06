@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "animals_farm_cow_big_01",
+  "category_id": "animals",
+  "tier_id": "big_kids",
+  "display_name": "Cow on the Farm",
+  "source_image": "source.webp",
+  "piece_count": 20,
+  "narration_key": "animals.farm_cow.big_01",
+  "alt_text": "A cheerful brown and white cow standing in a sunny green farm meadow",
+  "tags": [
+    "farm",
+    "cow",
+    "animal"
+  ]
+}

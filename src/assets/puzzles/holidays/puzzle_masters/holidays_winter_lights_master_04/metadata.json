@@ -1,0 +1,20 @@
+{
+  "puzzle_id": "holidays_winter_lights_master_04",
+  "category_id": "holidays",
+  "tier_id": "puzzle_masters",
+  "display_name": "Winter Lights",
+  "source_image": "source.webp",
+  "piece_count": 60,
+  "narration_key": "holidays.winter_lights.master_04",
+  "alt_text": "A cozy snow-covered house and trees glowing with colorful winter lights",
+  "tags": [
+    "winter",
+    "lights",
+    "seasonal"
+  ],
+  "active_months": [
+    12,
+    1,
+    2
+  ]
+}

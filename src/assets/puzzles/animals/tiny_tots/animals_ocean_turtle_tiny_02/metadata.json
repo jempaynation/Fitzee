@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "animals_ocean_turtle_tiny_02",
+  "category_id": "animals",
+  "tier_id": "tiny_tots",
+  "display_name": "Turtle in the Reef",
+  "source_image": "source.webp",
+  "piece_count": 6,
+  "narration_key": "animals.ocean_turtle.tiny_02",
+  "alt_text": "A cheerful green sea turtle swimming above a colorful coral reef",
+  "tags": [
+    "ocean",
+    "turtle",
+    "animal"
+  ]
+}

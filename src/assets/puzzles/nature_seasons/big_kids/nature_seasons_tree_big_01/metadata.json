@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "nature_seasons_tree_big_01",
+  "category_id": "nature_seasons",
+  "tier_id": "big_kids",
+  "display_name": "Four Seasons Tree",
+  "source_image": "source.webp",
+  "piece_count": 20,
+  "narration_key": "nature_seasons.tree.big_01",
+  "alt_text": "One large tree showing spring, summer, autumn, and winter",
+  "tags": [
+    "tree",
+    "seasons",
+    "nature"
+  ]
+}

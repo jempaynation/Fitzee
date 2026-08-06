@@ -1,0 +1,15 @@
+{
+  "puzzle_id": "vehicles_excavator_tiny_02",
+  "category_id": "vehicles",
+  "tier_id": "tiny_tots",
+  "display_name": "Busy Excavator",
+  "source_image": "source.webp",
+  "piece_count": 6,
+  "narration_key": "vehicles.excavator.tiny_02",
+  "alt_text": "A friendly yellow excavator lifting earth at a tidy construction site",
+  "tags": [
+    "excavator",
+    "construction",
+    "vehicle"
+  ]
+}
