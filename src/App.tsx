@@ -232,7 +232,13 @@ function AppRoutes({
     screen = puzzle &&
       puzzle.tier_id === state.settings.active_tier_id &&
       isPuzzleAvailableOn(puzzle) ? (
-      <PuzzlePlayScreen puzzle={puzzle} settings={state.settings} />
+      <PuzzlePlayScreen
+        puzzle={puzzle}
+        settings={state.settings}
+        onPersistenceUnavailable={() =>
+          setState((prev) => ({ ...prev, persistenceAvailable: false }))
+        }
+      />
     ) : (
       <PlaceholderScreen icon="🧩" name="Puzzle not found" sentence="Choose another puzzle to play." />
     )

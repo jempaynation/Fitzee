@@ -19,12 +19,14 @@ import {
   writePuzzleProgress,
 } from '../../data/repositories/puzzleProgressRepository'
 import {
+  getPuzzleTierConfig,
   isCorrectRotation,
   isWithinSnapTolerance,
   PUZZLE_TIER_CONFIG,
   rotateClockwise,
 } from './engineMath'
 import { awardPuzzleCompletion } from '../rewards/rewardService'
+import { recordCompletionReceipt } from '../completion/completionReceipt'
 import { useI18n } from '../../i18n/i18n'
 import {
   LOGICAL_BOARD_SIZE,
