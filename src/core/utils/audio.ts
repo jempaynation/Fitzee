@@ -41,7 +41,7 @@ function scheduleMusicNote(context: AudioContext, generation: number): void {
   oscillator.type = 'sine'
   oscillator.frequency.setValueAtTime(MUSIC_NOTES[musicNoteIndex], noteStart)
   gain.gain.setValueAtTime(0.0001, noteStart)
-  gain.gain.exponentialRampToValueAtTime(0.018, noteStart + 0.04)
+  gain.gain.exponentialRampToValueAtTime(0.065, noteStart + 0.04)
   gain.gain.exponentialRampToValueAtTime(0.0001, noteEnd)
   oscillator.connect(gain)
   gain.connect(context.destination)
@@ -156,6 +156,9 @@ function playToneSequence(
     const AudioContextClass = getAudioContextConstructor()
     if (!AudioContextClass) return
     audioContext ??= new AudioContextClass()
+    if (audioContext.state === 'suspended') {
+      void audioContext.resume()
+    }
     const startAt = audioContext.currentTime
     for (const note of notes) {
       const oscillator = audioContext.createOscillator()

@@ -8,7 +8,6 @@ import {
 } from 'react'
 import { useHashNavigation } from '../../core/navigation/useHashNavigation'
 import {
-  playNarration,
   playPieceSnapCue,
   vibrateSuccess,
 } from '../../core/utils/audio'
@@ -69,7 +68,7 @@ export function PuzzlePlayScreen({
   paused = false,
   onPersistenceUnavailable,
 }: PuzzlePlayScreenProps) {
-  const { t, language, puzzleName } = useI18n()
+  const { t, puzzleName } = useI18n()
   const { navigate } = useHashNavigation()
   const boardRef = useRef<HTMLDivElement>(null)
   const [pieces, setPieces] = useState<RenderedPuzzlePiece[]>([])
@@ -180,15 +179,6 @@ export function PuzzlePlayScreen({
       setElapsedSeconds(Math.floor(accumulatedElapsedSeconds.current))
     }
   }, [puzzle.puzzle_id, timerRunning])
-
-  useEffect(() => {
-    if (!resumeReady || pieces.length === 0) return
-    playNarration(
-      settings.narration_enabled,
-      language,
-      `${puzzleName(puzzle.display_name)}. ${t('puzzle.instruction')}`,
-    )
-  }, [language, pieces.length, puzzle.display_name, puzzleName, resumeReady, settings.narration_enabled, t])
 
   const remainingPieces = useMemo(
     () => pieces.filter((piece) => !placed.has(piece.id)),

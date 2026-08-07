@@ -43,7 +43,11 @@ export function ChildLayout({
   }, [path])
 
   useEffect(() => {
-    if (!settings.music_enabled) stopBackgroundMusic()
+    if (settings.music_enabled) {
+      startBackgroundMusic()
+    } else {
+      stopBackgroundMusic()
+    }
     return () => stopBackgroundMusic()
   }, [settings.music_enabled])
 

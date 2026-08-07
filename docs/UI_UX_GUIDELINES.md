@@ -34,10 +34,10 @@ All values below are exposed as CSS custom properties in `src/core/theme/tokens.
 ## v1 localization and accessibility baseline
 
 - Child-facing navigation, catalog, puzzle, completion, gallery, rewards, and
-  settings copy is available in English (`en`) and Filipino (`fil`). The
-  browser's local speech-synthesis voice reads the localized puzzle prompt when
-  narration is enabled; narration is progressive enhancement and never required
-  to play.
+  settings copy is available in English (`en`) and Filipino (`fil`). Automatic
+  spoken voice instructions on puzzle selection have been removed so selecting
+  puzzles enters play silently without speech synthesis overlay; narration controls
+  and asset key mappings remain preserved as progressive enhancement.
 - Parent Zone privacy/legal copy remains English pending professional legal
   translation. The language selector makes this scope explicit.
 - A visible “Bigger buttons” setting applies 64px minimum child-facing targets.

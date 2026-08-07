@@ -42,7 +42,7 @@ catalog's stable, row-major piece order. This avoids adding undocumented piece-I
 state while still returning the child to the same amount of completed work.
 
 ## Interaction flow
-1. Puzzle loads → board area shows empty tray/outline (per tier's hint rule above) → pieces scattered in a tray area, sized generously for touch (minimum 44×44px touch target, larger for `tiny_tots`).
+1. Puzzle loads → board area shows empty tray/outline (per tier's hint rule above) → pieces scattered in a tray area, sized generously for touch (minimum 44×44px touch target, larger for `tiny_tots`). Puzzle loads silently without spoken voice instructions.
 2. Child drags a piece using a finger (touch), stylus, or mouse — implement via the **Pointer Events API** (`pointerdown`/`pointermove`/`pointerup`) so touch, mouse, and stylus all work through one code path rather than separate handlers.
 3. On release, if within snap tolerance of correct position/rotation → piece snaps into place with a satisfying audio + visual cue (use the [Vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API) for haptic feedback where supported — Android Chrome supports it, iOS Safari currently does not, so treat it as a progressive enhancement, not a requirement).
 4. If outside tolerance → piece stays where dropped (`tiny_tots`/`little_explorers`) or gently animates back to tray (`big_kids`/`puzzle_masters`) — never an error sound or negative feedback, at any tier.
