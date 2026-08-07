@@ -1,0 +1,17 @@
+{
+  "puzzle_id": "fairy_tales_steamboat_mickey_tiny_05",
+  "category_id": "fairy_tales",
+  "tier_id": "tiny_tots",
+  "display_name": "Steamboat Willie Mickey",
+  "source_image": "source.webp",
+  "piece_count": 4,
+  "narration_key": "fairy_tales.steamboat_mickey.tiny_05",
+  "alt_text": "Classic 1928 Steamboat Willie Mickey Mouse steering a steamboat wheel on the river",
+  "tags": [
+    "disney",
+    "mickey",
+    "steamboat",
+    "classic",
+    "fantasy"
+  ]
+}

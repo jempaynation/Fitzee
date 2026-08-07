@@ -9,17 +9,19 @@ import {
 } from './puzzleCatalog'
 
 describe('launch puzzle catalog', () => {
-  it('contains exactly 128 unique puzzles including seasonal variants', () => {
-    expect(PUZZLE_CATALOG).toHaveLength(128)
-    expect(new Set(PUZZLE_CATALOG.map((puzzle) => puzzle.puzzle_id)).size).toBe(128)
+  it('contains exactly 144 unique puzzles including seasonal variants', () => {
+    expect(PUZZLE_CATALOG).toHaveLength(144)
+    expect(new Set(PUZZLE_CATALOG.map((puzzle) => puzzle.puzzle_id)).size).toBe(144)
   })
 
   it.each(['tiny_tots', 'little_explorers', 'big_kids', 'puzzle_masters'] as const)(
-    'provides four puzzles in every launch category for %s',
+    'provides puzzles in every launch category for %s',
     (tierId) => {
       for (const categoryId of CATEGORY_IDS.filter((id) => id !== 'holidays')) {
-        expect(getPuzzlesForCategory(categoryId, tierId)).toHaveLength(4)
+        const count = getPuzzlesForCategory(categoryId, tierId).length
+        expect(count).toBeGreaterThanOrEqual(4)
       }
+      expect(getPuzzlesForCategory('fairy_tales', tierId)).toHaveLength(8)
       expect(getActiveCategories(tierId, new Date('2026-08-07T00:00:00Z')).map(({ id }) => id)).toEqual([
         'animals',
         'shapes_colors',

@@ -1,0 +1,17 @@
+{
+  "puzzle_id": "fairy_tales_snow_white_tiny_08",
+  "category_id": "fairy_tales",
+  "tier_id": "tiny_tots",
+  "display_name": "Snow White Forest",
+  "source_image": "source.webp",
+  "piece_count": 4,
+  "narration_key": "fairy_tales.snow_white.tiny_08",
+  "alt_text": "Snow White in a sunny forest surrounded by friendly deer, bluebirds, and red apples",
+  "tags": [
+    "snow_white",
+    "forest",
+    "princess",
+    "fairy_tale",
+    "animals"
+  ]
+}

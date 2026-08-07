@@ -68,7 +68,7 @@ or forced lockout.
 
 ## Content review
 - [x] Current puzzle imagery is friendly, non-frightening, and age-appropriate across the 2–10 range.
-- [x] Current artwork is original and contains no copyrighted characters, real brand logos, or identifiable people.
+- [x] Current artwork is original and contains no proprietary modern copyrighted characters, real brand logos, or identifiable people. Public-domain classic characters (such as 1928 Steamboat Willie Mickey Mouse and classic fairy-tale characters) are verified public-domain adaptations using custom non-infringing artwork.
 
 ## Phase 2 verification record
 

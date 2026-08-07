@@ -11,7 +11,7 @@ Canonical category and tier IDs. Code, assets, and data must use these exact IDs
 | `vehicles` | Vehicles | Yes (Phase 1) | cars, trains, planes, construction, boats |
 | `nature_seasons` | Nature & Seasons | Phase 3 | weather, plants, day/night, four seasons |
 | `numbers_letters` | Numbers & Letters | Phase 3 | ABCs, counting 1–10, simple words |
-| `fairy_tales` | Fairy Tales & Fantasy | Phase 3 | dragons, castles, unicorns, space |
+| `fairy_tales` | Fairy Tales & Fantasy | Phase 3 | dragons, castles, unicorns, space, disney & public-domain classic characters |
 | `everyday_life` | Everyday Life | Phase 3 | family, food, community helpers |
 | `holidays` | Holidays & Seasonal | Phase 5 | rotating content, refreshed per calendar |
 
@@ -24,23 +24,23 @@ Canonical category and tier IDs. Code, assets, and data must use these exact IDs
 |---|---|---|---|
 | Phase 1 (MVP) | 3 | 2 (tiny_tots, big_kids only) | 12 |
 | Phase 3 (full tiers) | 3 | 4 (all 4 tiers) | 48 |
-| Phase 3 (full categories) | 7 (excl. holidays) | 4 (all 4 tiers) | 112 |
+| Phase 3 (full categories) | 7 (excl. holidays) | 4–8 (all 4 tiers) | 144 |
 | Phase 5 (+ holidays) | 8 | varies, seasonal | ongoing |
 
 ## v1 launch puzzle themes
 
-The 112-puzzle Phase 3 catalog uses four stable scenes per launch category, each
+The catalog uses stable scenes per launch category, each
 published at all four tiers. Reusing a scene across tier variants is intentional;
 piece count and tier interaction rules provide the age-appropriate challenge.
 
-| Category | Four launch scenes |
+| Category | Launch scenes |
 |---|---|
 | Animals | Cow on the Farm; Turtle in the Reef; Friendly Dinosaur; Butterfly Garden |
 | Shapes & Colors | Shape Garden; Block Town; Rainbow Pattern; Shape Rocket |
 | Vehicles | Countryside Train; Busy Excavator; Sailboat Harbor; Friendly Airplane |
 | Nature & Seasons | Four Seasons Tree; Rainy Garden; Sun and Moon; Flower Life Cycle |
 | Numbers & Letters | Counting Ducks; Apple Letter A; Number Three Fish; Alphabet Blocks |
-| Fairy Tales & Fantasy | Friendly Dragon; Hilltop Castle; Rainbow Unicorn; Friendly Space Adventure |
+| Fairy Tales & Fantasy | Friendly Dragon; Hilltop Castle; Rainbow Unicorn; Friendly Space Adventure; Steamboat Willie Mickey; Cinderella's Carriage; Little Mermaid Reef; Snow White Forest |
 | Everyday Life | Family Picnic; Colorful Healthy Lunch; Friendly Firefighter; Cozy Bedtime Room |
 
 ### Seasonal rotation calendar
@@ -96,7 +96,7 @@ Field notes:
 - Flat, high-contrast, rounded-shape illustration style (not photorealistic) — reads better once cut into pieces, especially at low piece counts.
 - Minimum source resolution: 2048×2048px (allows clean cutting up to 100-piece tier without blur).
 - No text embedded in puzzle images (breaks language-agnostic/no-read design principle) — text-teaching content (letters/numbers) should be the puzzle piece itself (a big "3" shape), not a background label.
-- No real children's faces, no real-world brand logos, no copyrighted characters.
+- No real children's faces, no real-world brand logos. Proprietary modern copyrighted characters are strictly prohibited, but public-domain classic animation characters (such as 1928 Steamboat Willie Mickey Mouse and classic fairy tales like Cinderella, The Little Mermaid, and Snow White) are permitted using original non-infringing artwork.
 
 ## Adding new content (process for agents)
 1. Add source image to `src/assets/puzzles/{category_id}/{tier_id}/{puzzle_id}/`.

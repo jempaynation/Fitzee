@@ -1,0 +1,17 @@
+{
+  "puzzle_id": "fairy_tales_mermaid_tiny_07",
+  "category_id": "fairy_tales",
+  "tier_id": "tiny_tots",
+  "display_name": "Little Mermaid Reef",
+  "source_image": "source.webp",
+  "piece_count": 4,
+  "narration_key": "fairy_tales.mermaid.tiny_07",
+  "alt_text": "A joyful mermaid swimming underwater among colorful coral, sea turtles, and starfish",
+  "tags": [
+    "mermaid",
+    "ocean",
+    "reef",
+    "fairy_tale",
+    "fantasy"
+  ]
+}

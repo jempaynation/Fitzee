@@ -1,0 +1,17 @@
+{
+  "puzzle_id": "fairy_tales_cinderella_master_06",
+  "category_id": "fairy_tales",
+  "tier_id": "puzzle_masters",
+  "display_name": "Cinderella's Carriage",
+  "source_image": "source.webp",
+  "piece_count": 48,
+  "narration_key": "fairy_tales.cinderella.master_06",
+  "alt_text": "A magical golden pumpkin carriage headed toward a sparkling fairytale castle",
+  "tags": [
+    "cinderella",
+    "carriage",
+    "princess",
+    "castle",
+    "fairy_tale"
+  ]
+}
