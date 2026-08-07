@@ -138,16 +138,17 @@ describe('Fitzee IndexedDB repositories', () => {
       'animals_dinosaur_tiny_03',
     ]
     for (const puzzleId of puzzleIds) {
-      await writePuzzleProgress({
+      const progress = {
         puzzle_id: puzzleId,
-        status: 'completed',
+        status: 'completed' as const,
         pieces_placed: 4,
         piece_count: 4,
         first_completed_at: '2026-08-07T06:00:00.000Z',
         times_completed: 1,
         best_time_seconds: null,
-      })
-      await awardPuzzleCompletion(puzzleId, 'tiny_tots', 1)
+      }
+      await writePuzzleProgress(progress)
+      await awardPuzzleCompletion(progress, 'tiny_tots')
     }
 
     const rewards = await readRewards()
@@ -155,7 +156,16 @@ describe('Fitzee IndexedDB repositories', () => {
     expect(rewards.filter(({ type }) => type === 'star')).toHaveLength(4)
     expect(rewards.some(({ reward_id }) => reward_id === 'streak_star:tiny_tots:3')).toBe(true)
 
-    expect(await awardPuzzleCompletion(puzzleIds[2], 'tiny_tots', 1)).toEqual([])
+    const duplicateResult = await awardPuzzleCompletion({
+      puzzle_id: puzzleIds[2],
+      status: 'completed',
+      pieces_placed: 4,
+      piece_count: 4,
+      first_completed_at: '2026-08-07T06:00:00.000Z',
+      times_completed: 1,
+      best_time_seconds: null,
+    }, 'tiny_tots')
+    expect(duplicateResult.unlockedRewards).toEqual([])
     expect(await readRewards()).toHaveLength(7)
   })
 })

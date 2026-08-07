@@ -132,6 +132,7 @@ function AppRoutes({
   onParentVerified,
   onParentAccessRevoked,
   onDataDeleted,
+  onPersistenceUnavailable,
 }: {
   state: AppState
   onSelectTier: (tierId: TierId) => Promise<void>
@@ -140,6 +141,7 @@ function AppRoutes({
   onParentVerified: () => void
   onParentAccessRevoked: () => void
   onDataDeleted: () => void
+  onPersistenceUnavailable: () => void
 }) {
   const { path, navigate } = useHashNavigation()
   const wasInParentZone = useRef(false)
@@ -235,9 +237,7 @@ function AppRoutes({
       <PuzzlePlayScreen
         puzzle={puzzle}
         settings={state.settings}
-        onPersistenceUnavailable={() =>
-          setState((prev) => ({ ...prev, persistenceAvailable: false }))
-        }
+        onPersistenceUnavailable={onPersistenceUnavailable}
       />
     ) : (
       <PlaceholderScreen icon="🧩" name="Puzzle not found" sentence="Choose another puzzle to play." />
@@ -349,6 +349,10 @@ function App() {
     setState({ loading: false, settings: null, persistenceAvailable: true })
   }, [])
 
+  const handlePersistenceUnavailable = useCallback(() => {
+    setState((previous) => ({ ...previous, persistenceAvailable: false }))
+  }, [])
+
   if (state.loading) {
     return (
       <main className="loading-screen" aria-busy="true" aria-label="Opening Fitzee">
@@ -369,6 +373,7 @@ function App() {
           onParentVerified={verifyParent}
           onParentAccessRevoked={revokeParentAccess}
           onDataDeleted={handleDataDeleted}
+          onPersistenceUnavailable={handlePersistenceUnavailable}
         />
       </HashNavigationProvider>
     </I18nProvider>

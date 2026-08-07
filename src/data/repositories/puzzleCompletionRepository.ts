@@ -24,7 +24,7 @@ function buildCompletionRecords(
   const previous = allProgress.find(({ puzzle_id }) => puzzle_id === draft.puzzle_id)
   const completionNumber = Math.max(
     draft.times_completed,
-    (previous?.times_completed ?? 0) + 1,
+    previous?.times_completed ?? 0,
   )
   const progress: PuzzleProgress = {
     ...draft,

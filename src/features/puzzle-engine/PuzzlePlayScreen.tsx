@@ -22,7 +22,6 @@ import {
   getPuzzleTierConfig,
   isCorrectRotation,
   isWithinSnapTolerance,
-  PUZZLE_TIER_CONFIG,
   rotateClockwise,
 } from './engineMath'
 import { awardPuzzleCompletion } from '../rewards/rewardService'
@@ -38,7 +37,7 @@ interface PuzzlePlayScreenProps {
   puzzle: PuzzleCatalogEntry
   settings: UserSettings
   paused?: boolean
-  onPersistenceUnavailable: () => void
+  onPersistenceUnavailable?: () => void
 }
 
 interface LoosePosition {
@@ -240,7 +239,7 @@ export function PuzzlePlayScreen({
     if (nextPlaced.size === pieces.length) {
       const progress = createProgress(nextPlaced)
       void awardPuzzleCompletion(progress, puzzle.tier_id).then((result) => {
-        if (!result.persistenceAvailable) onPersistenceUnavailable()
+        if (!result.persistenceAvailable) onPersistenceUnavailable?.()
         startingCompletionCount.current = result.progress.times_completed
         startingFirstCompletion.current = result.progress.first_completed_at
         startingBestTime.current = result.progress.best_time_seconds
@@ -254,7 +253,7 @@ export function PuzzlePlayScreen({
       })
     } else {
       void writePuzzleProgress(createProgress(nextPlaced)).then((persisted) => {
-        if (!persisted) onPersistenceUnavailable()
+        if (!persisted) onPersistenceUnavailable?.()
       })
     }
   }
